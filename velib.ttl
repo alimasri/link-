@@ -1,0 +1,113 @@
+@prefix draft: <http://localhost:9091/project/draft> .
+
+<http://velib/stops/1> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "31705" ;
+	<http://velib/stops#name> "31705 - CHAMPEAUX (BAGNOLET)" ;
+	<http://velib/stops#address> "RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET" ;
+	<http://velib/stops#position> "48.864527821, 2.41617072443" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "True" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "50" ;
+	<http://velib/stops#available-bike-stands> "49" ;
+	<http://velib/stops#available-bikes> "1" ;
+	<http://velib/stops#last-update> "2015-05-26T14:54:26+00:00" .
+
+<http://velib/stops/2> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "12124" ;
+	<http://velib/stops#name> "12124 - PYRAMIDE ARTILLERIE" ;
+	<http://velib/stops#address> "ROUTE DE L'ARTILLERIE - 75012 PARIS" ;
+	<http://velib/stops#position> "48.8390411459, 2.43765533908" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "55" ;
+	<http://velib/stops#available-bike-stands> "36" ;
+	<http://velib/stops#available-bikes> "11" ;
+	<http://velib/stops#last-update> "2015-05-26T14:54:26+00:00" .
+
+<http://velib/stops/3> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "7007" ;
+	<http://velib/stops#name> "07007 - MUSÉE D'ORSAY" ;
+	<http://velib/stops#address> "62 RUE DE LILLE - 75007 PARIS" ;
+	<http://velib/stops#position> "48.8597101044, 2.32580902463" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "65" ;
+	<http://velib/stops#available-bike-stands> "5" ;
+	<http://velib/stops#available-bikes> "60" ;
+	<http://velib/stops#last-update> "2015-05-26T14:54:06+00:00" .
+
+<http://velib/stops/4> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "11029" ;
+	<http://velib/stops#name> "11029 - MENILMONTANT OBERKAMPF" ;
+	<http://velib/stops#address> "137 BOULEVARD MENILMONTANT - 75011 PARIS" ;
+	<http://velib/stops#position> "48.8666176587, 2.38301344042" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "40" ;
+	<http://velib/stops#available-bike-stands> "39" ;
+	<http://velib/stops#available-bikes> "1" ;
+	<http://velib/stops#last-update> "2015-05-26T14:54:20+00:00" .
+
+<http://velib/stops/5> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "4020" ;
+	<http://velib/stops#name> "04020 - BEAUBOURG PLACE MICHELET" ;
+	<http://velib/stops#address> "FACE 27 RUE QUINCAMPOIX - 75004 PARIS" ;
+	<http://velib/stops#position> "48.8600883261, 2.35014833592" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "28" ;
+	<http://velib/stops#available-bike-stands> "6" ;
+	<http://velib/stops#available-bikes> "22" ;
+	<http://velib/stops#last-update> "2015-05-26T14:53:31+00:00" .
+
+<http://velib/stops/6> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "19019" ;
+	<http://velib/stops#name> "19019 - PETIT HONNEGER" ;
+	<http://velib/stops#address> "124 RUE PETIT - 75019 PARIS" ;
+	<http://velib/stops#position> "48.8863896349, 2.39363751443" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "22" ;
+	<http://velib/stops#available-bike-stands> "17" ;
+	<http://velib/stops#available-bikes> "4" ;
+	<http://velib/stops#last-update> "2015-05-26T14:54:29+00:00" .
+
+<http://velib/stops/7> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "11008" ;
+	<http://velib/stops#name> "11008 - FAIDHERBE CHALIGNY" ;
+	<http://velib/stops#address> "223 RUE DU FAUBOURG SAINT ANTOINE - 75011 PARIS" ;
+	<http://velib/stops#position> "48.8503797539, 2.38386933547" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "40" ;
+	<http://velib/stops#available-bike-stands> "13" ;
+	<http://velib/stops#available-bikes> "27" ;
+	<http://velib/stops#last-update> "2015-05-26T14:54:06+00:00" .
+
+<http://velib/stops/8> a <http://velib/stops#velib> ;
+	<http://velib/stops#number> "14120" ;
+	<http://velib/stops#name> "14120 - JOURDAN BARBOUX" ;
+	<http://velib/stops#address> "7 RUE HENRI BARBOUX - 75014 PARIS" ;
+	<http://velib/stops#position> "48.8219553065, 2.32680686991" ;
+	<http://velib/stops#banking> "True" ;
+	<http://velib/stops#bonus> "False" ;
+	<http://velib/stops#status> "OPEN" ;
+	<http://velib/stops#contract-name> "Paris" ;
+	<http://velib/stops#bike-stands> "20" ;
+	<http://velib/stops#available-bike-stands> "15" ;
+	<http://velib/stops#available-bikes> "5" ;
+	<http://velib/stops#last-update> "2015-05-26T14:53:31+00:00" .

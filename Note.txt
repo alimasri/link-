@@ -1,0 +1,4 @@
+To compile java files with external libraries use:
+javac -cp .;jarfile1;jarfile2 JavaFileName.java
+Or put everything is one folder and run:
+javac -cp .;* JavaFileName.java

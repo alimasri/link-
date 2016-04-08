@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connection [
+        <!ELEMENT connection (properties?)>
+        <!ELEMENT properties (property*)>
+        <!ELEMENT property (function)>
+        <!ATTLIST property name CDATA #REQUIRED>
+        <!ELEMENT function (params*)>
+        <!ATTLIST function name CDATA #REQUIRED>
+        <!ELEMENT params (param*)>
+        <!ELEMENT param (#PCDATA)>
+        <!ATTLIST param name CDATA #REQUIRED>
+        <!ATTLIST param value CDATA #IMPLIED>
+        <!ATTLIST param datasource CDATA #REQUIRED>
+        ]>
+<connection>
+    <properties>
+		<!-- Just for test the function should be Functions.walkingDistance -->
+        <property name="walking-distance">
+            <function name="Functions.geometricDistance">
+                <params>
+                    <param name="stop-lat" datasource="1"></param>
+                    <param name="stop-lon" datasource="1"></param>
+                    <param name="position" datasource="2"></param>
+					<param name="unit" datasource="0" value="K"></param>
+                </params>
+            </function>
+        </property>
+		<!--
+        <property name="walking-time">
+            <function name="Functions.walkingTime">
+                <params>
+                    <param name="stop-lat" datasource="1"></param>
+                    <param name="stop-lon" datasource="1"></param>
+                    <param name="position" datasource="2"></param>
+                </params>
+            </function>
+        </property>
+		!-->
+    </properties>
+</connection>

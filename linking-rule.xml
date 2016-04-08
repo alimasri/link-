@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE rule [
+        <!ELEMENT rule (aggregation|comparison)?>
+        <!ELEMENT aggregation (aggregation|comparison)+>
+        <!ELEMENT comparison (property|transformation)*>
+        <!ELEMENT transformation (property|transformation)*>
+        <!ELEMENT property (#PCDATA)>
+        <!ATTLIST aggregation function CDATA #REQUIRED>
+        <!ATTLIST aggregation threshold CDATA #REQUIRED>
+        <!ATTLIST comparison function CDATA #REQUIRED>
+        <!ATTLIST comparison threshold CDATA #REQUIRED>
+        <!ATTLIST transformation function CDATA #REQUIRED>
+        <!ATTLIST property name CDATA #REQUIRED>
+        <!ATTLIST property datasource CDATA #REQUIRED>
+        <!ATTLIST property value CDATA #IMPLIED>
+        ]>
+<rule>
+    <comparison function="Functions.geometricDistance" threshold="20">
+        <property name="stop-lat" datasource="1">
+        </property>
+        <property name="stop-lon" datasource="1">
+        </property>
+        <property name="position" datasource="2">
+        </property>
+		<property name="unit" datasource="0" value="K">
+        </property>
+    </comparison>
+</rule>

@@ -1,0 +1,56 @@
+@prefix pb: <http://localhost:9091/project/pb> .
+@prefix stop: <http://localhost:9091/project/stop> .
+@prefix kiosques: <http://localhost:9091/project/kiosques> .
+@prefix kc: <http://localhost:9091/project/kc> .
+@prefix tr: <http://localhost:9091/project/tr> .
+@prefix ville: <http://localhost:9091/project/ville> .
+@prefix fines: <http://localhost:9091/project/fines> .
+@prefix linking-cities: <http://localhost:9091/project/linking-cities> .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/1> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8754526" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "ABLON" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "48.725069" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.419203" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/2> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8738605" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "ACHERES GRAND CORMIER" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "48.955294" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.09278" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/3> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8738165" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "ACHERES VILLE" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "48.969944" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.077125" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/4> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8700147" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "AEROPORT CHARLES DE GAULLE  2 TGV" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "49.004" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.567437" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/5> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8727146" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "AEROPORT CHARLES DE GAULLE 1" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "49.010452" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.559885" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/6> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8738149" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "ANDRESY" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "48.975237" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.050147" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/7> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8754309" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "ANGERVILLE" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "48.311296" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.003525" .
+
+<http://localhost:9091/linking-cities/sncf-a-csv/8> a <http://localhost:9091/linking-cities/sncf-a-csv#sncf-a-csv> ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-id> "StopArea:DUA8775875" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-name> "ANTONY" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lat> "48.754712" ;
+	<http://localhost:9091/linking-cities/sncf-a-csv#stop-lon> "2.301724" .
