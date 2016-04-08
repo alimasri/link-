@@ -24,3 +24,9 @@ In addition to the executable file we have included the following files as a sam
   Users may use any external library as well but it is required that the used library exists in the classes folder.</li>
   <li><i>output</i> a folder containing the output of a linking process</li>
 </ul>
+<hr />
+<h3>Acknowledgments</h3>
+This work is part of a PhD thesis supported by VEDECOM Institute http://vedecom.fr/en/ in collaboration with the University of Versailles Saint-Quentine-en-Yvelines - DAVID Laboratory http://www.david.uvsq.fr/.
+<hr />
+<h3>Contact information</h3>
+For more information about the project or for any suggestions you are free to contact us at ali.masri@vedecom.fr
