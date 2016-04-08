@@ -7,8 +7,10 @@ We introduce <b>Link++</b>, an approach that enables the discovery of complex li
 <b>Link++</b> enables the users to generate rich links by defining custom functions and linking patterns that fit their needs.
 <hr />
 <h3>Instructions</h3>
-This repository contains the executable file link_pp.jar that can be launched via the command: java -cp link_pp.jar app.cli.Application
-After running the command the program will show its usages.
+This repository contains the executable file link_pp.jar that can be launched via running the batch files run.bat for the command lind interface version or run GUI.bat for a graphical user interface version.
+Please follow this link for a quick introduction about the GUI version: https://www.youtube.com/watch?v=u2gr7Wa4eT4.
+<br />
+After running the command line program the program will show its usages.
 In addition to the executable file we have included the following files as a sample scenario:
 <ul>
   <li><i>sncf.ttl</i> a turtle file containing data about SNCF's stop locations. SNCF is a railway company in France see http://www.sncf.com/.
