@@ -27,6 +27,12 @@ In addition to the executable file we have included the following files as a sam
   <li><i>output</i> a folder containing the output of a linking process</li>
 </ul>
 <hr />
+<h3>Publications</h3>
+<ul>
+  <li>Ali Masri, Karine Zeitouni, Zoubida Kedad, Gabriel Képéklian:<b> Link++: A Flexible and Customizable Tool for Connecting RDF Data Sources.</b> ESWC (Satellite Events) 2016: 107-111<br />Link: http://link.springer.com/chapter/10.1007%2F978-3-319-47602-5_22
+  </li>
+</ul>
+<hr />
 <h3>Acknowledgments</h3>
 This work is part of a PhD thesis supported by VEDECOM Institute http://vedecom.fr/en/ in collaboration with the University of Versailles Saint-Quentine-en-Yvelines - DAVID Laboratory http://www.david.uvsq.fr/.
 <hr />
