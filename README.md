@@ -29,6 +29,10 @@ In addition to the executable file we have included the following files as a sam
 <hr />
 <h3>Publications</h3>
 <ul>
+  <li>Ali Masri, Karine Zeitouni, Zoubida Kedad, and Bertrand Leroy: <b> An Automatic Matcher and Linker for Transportation Datasets.</b>ISPRS International Journal of Geo-Information 6, no. 1 (2017): 29.
+  </li>
+  <li>Ali Masri, Karine Zeitouni, Zoubida Kedad, and Bertrand Leroy: <b>Discovering multimodal routes using connection patterns.</b>In Intelligent Transportation Systems (ITSC), 2016 IEEE 19th International Conference on, pp. 2360-2365. IEEE, 2016.
+  </li>
   <li>Ali Masri, Karine Zeitouni, Zoubida Kedad, Gabriel Képéklian:<b> Link++: A Flexible and Customizable Tool for Connecting RDF Data Sources.</b> ESWC (Satellite Events) 2016: 107-111<br />Link: http://link.springer.com/chapter/10.1007%2F978-3-319-47602-5_22
   </li>
 </ul>
